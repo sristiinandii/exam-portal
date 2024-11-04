@@ -1,0 +1,90 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Examination Portal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url("/static/image/shl.jpg") ;
+      background-repeat:no-repeat;
+      background-size:1950px 900px;
+
+    }
+    header {
+      background-color: #1481d4;
+      color: #eee8e8;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 45px;
+
+    }
+    nav {
+      background-color: #f4f4f4;
+      font-weight: bold;
+      font-size: large;
+      padding: 30px;
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: space-between;
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    nav ul li a {
+      color: #333;
+      text-decoration: none;
+      padding: 10px;
+    }
+    nav ul li a:hover {
+      background-color: #3998e0;
+      color: #fff;
+    }
+   
+    
+
+   
+    section {
+      padding: 120px 0px 0px 0px;
+      text-align: center;
+      font-size: x-large;
+    }
+
+
+  </style>
+</head>
+<body>
+  <header>
+    
+    <h1>Online Examination Portal</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      
+      <li><a href="student/studentclick">Student</a></li>
+      <li><a href="teacher/teacherclick">Teacher</a></li>
+      <li><a href="adminlogin">Admin</a></li>
+    </ul>
+    
+  </nav>
+  <section>
+    
+    <h2 style ="font-size:200;">Welcome to the Exam Portal </h2>
+    <p>Prepare for your exams and track your results.</p>
+  </section>
+</body>
+</html>
